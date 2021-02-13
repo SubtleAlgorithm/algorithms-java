@@ -11,7 +11,7 @@ public class Main {
     public static void main(String args[]) {
 
         final long startTime = System.currentTimeMillis();
-        int[] result = OptimizedSolution.twoSum(someNumbers, someTargetNumber);
+        int[] result = OptimalSolution.twoSum(someNumbers, someTargetNumber);
 
         System.out.println("The answer is: " + Arrays.toString(result));
         final long lengthOfProcess = System.currentTimeMillis() - startTime;

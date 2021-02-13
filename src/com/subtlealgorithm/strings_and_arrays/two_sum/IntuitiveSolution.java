@@ -4,10 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class IntuitiveSolution {
-
-    // Time = O(n)
-    // Space = O(n) *Hashmap reduces lookup time*
-    public static int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
 
         Map<Integer, Integer> referenceMap = new HashMap<>();
 
@@ -19,7 +16,7 @@ public class IntuitiveSolution {
             int complementaryNumber = target - nums[i];
 
             if (referenceMap.containsKey(complementaryNumber) && referenceMap.get(complementaryNumber) != i) {
-                return new int[] { i, referenceMap.get(complementaryNumber) };
+                return new int[] { referenceMap.get(complementaryNumber), i };
             }
         }
 

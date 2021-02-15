@@ -10,7 +10,7 @@ public class OptimalSolution {
         Map<Integer, Integer> referenceMap = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
-            if (referenceMap.containsKey(nums[i]) && referenceMap.get(i) != i) {
+            if (referenceMap.containsKey(nums[i]) && referenceMap.get(nums[i]) != i) {
                 return true;
             }
 

@@ -1,4 +1,4 @@
-package com.subtlealgorithm.trees.maximum_depth;
+package com.leetcodeproblems.trees.maximum_depth;
 
 class Solution {
     public int maxDepth(TreeNode root) {

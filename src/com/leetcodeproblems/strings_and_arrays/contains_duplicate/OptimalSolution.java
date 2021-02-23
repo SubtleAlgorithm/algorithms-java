@@ -1,4 +1,4 @@
-package com.subtlealgorithm.strings_and_arrays.contains_duplicate;
+package com.leetcodeproblems.strings_and_arrays.contains_duplicate;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.subtlealgorithm.linked_list.reverse_linked_list;
+package com.leetcodeproblems.linked_list.reverse_linked_list;
 
 public class Solution {
     public ListNode reverseList(ListNode head) {

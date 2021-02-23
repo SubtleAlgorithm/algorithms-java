@@ -1,4 +1,4 @@
-package com.subtlealgorithm.strings_and_arrays.rotate_array;
+package com.leetcodeproblems.strings_and_arrays.rotate_array;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package com.subtlealgorithm.strings_and_arrays.move_zeroes;
+package com.leetcodeproblems.strings_and_arrays.move_zeroes;
 
 public class Solution {
     public void moveZeroes(int[] nums) {

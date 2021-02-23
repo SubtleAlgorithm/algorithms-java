@@ -1,4 +1,4 @@
-package com.subtlealgorithm.strings_and_arrays.two_sum;
+package com.leetcodeproblems.strings_and_arrays.two_sum;
 
 import java.util.Arrays;
 

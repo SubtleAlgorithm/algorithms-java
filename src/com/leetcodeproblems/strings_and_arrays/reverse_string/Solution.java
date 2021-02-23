@@ -1,4 +1,4 @@
-package com.subtlealgorithm.strings_and_arrays.reverse_string;
+package com.leetcodeproblems.strings_and_arrays.reverse_string;
 
 public class Solution {
     public void reverseString(char[] s) {

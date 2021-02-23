@@ -1,4 +1,4 @@
-package com.subtlealgorithm.strings_and_arrays.first_unique_character_in_string;
+package com.leetcodeproblems.strings_and_arrays.first_unique_character_in_string;
 
 import java.util.HashMap;
 import java.util.Map;

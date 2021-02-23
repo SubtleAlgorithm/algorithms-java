@@ -1,4 +1,4 @@
-package com.subtlealgorithm.strings_and_arrays.two_sum;
+package com.leetcodeproblems.strings_and_arrays.two_sum;
 
 public class BruteForceSolution {
     public static int[] twoSum(int[] nums, int target) {

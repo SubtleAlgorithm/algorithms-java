@@ -1,11 +1,11 @@
 package com.leetcodeproblems.math.count_primes;
 
-public class Solution {
+class Solution {
     public int countPrimes(int n) {
 
         int counter = 0;
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             if (isPrime(i)) {
                 counter++;
             }
